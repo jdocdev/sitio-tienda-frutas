@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon del sitio -->
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
+    <title>PureFruit</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- mi css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section-carousel.css">
+    <link rel="stylesheet" href="css/section-services.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__info">
+            <p>¡Descubre la frescura de PureFruit! Llama ahora al <span class="phone-number">+57 458 5485</span> para
+                disfrutar de las mejores frutas directamente en tu hogar.</p>
+        </div>
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <a class="navbar__logo" href="index.html">
+                    <img src="img/logo.png" alt="">
+                    <span>
+                        PureFruit
+                    </span>
+                </a>
+                <div class="navbar__nav">
+                    <ul class="nav__list">
+                        <li class="nav__link link-active">
+                            <a href="#">Inicio</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="#">Frutas</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="#">Servicios</a>
+                        </li>
+                        <li class="nav__link">
+                            <a href="#">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="navbar__search" action="">
+                        <a class="search__icon" href="#">
+                            <img src="img/search-heart.svg" alt="">
+                        </a>
+                    </form>
+                    <a class="button button-primary button-saber-mas" href="#">¡Saber más!</a>
+                    <button class="navbar__toggle-btn" aria-label="Toggle Navigation">
+                        <img src="img/menu-icon.svg" alt="Menu">
+                    </button>
+                    <div class="navbar__mobile-menu">
+                        <ul class="nav__list-mobile">
+                            <li class="nav__link-mobile link-active">
+                                <a href="#">Inicio</a>
+                            </li>
+                            <li class="nav__link-mobile">
+                                <a href="#">Frutas</a>
+                            </li>
+                            <li class="nav__link-mobile">
+                                <a href="#">Servicios</a>
+                            </li>
+                            <li class="nav__link-mobile">
+                                <a href="#">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="carousel-section">
+        <article class="carousel__sections-cards container">
+            <div class="section__card show">
+                <div class="section__card-content">
+                    <h1 class="section__card-title">Bienvenido a nuestra frutería</h1>
+                    <p class="section__card-text">En PureFruit, nos enorgullece ofrecerte la frescura y la variedad de
+                        las mejores frutas. Nuestro compromiso es proporcionarte productos de alta calidad que no solo
+                        satisfagan tus antojos, sino que también promuevan un estilo de vida saludable.</p>
+                    <div class="section__card-buttons">
+                        <a class="button button-primary" href="#">Comprar ahora</a>
+                        <a class="button button-secondary" href="#">Contáctanos</a>
+                    </div>
+                </div>
+                <div class="section__card-imgs">
+                    <div class="section__card-img">
+                        <img src="img/img-carousel-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="section__card">
+                <div class="section__card-content">
+                    <h1 class="section__card-title">¡Tu frutería de confianza!</h1>
+                    <p class="section__card-text">Descubre la deliciosa explosión de sabores en cada bocado. Desde las
+                        jugosas manzanas hasta las exóticas piñas, cada fruta que encontrarás en nuestra frutería ha
+                        sido seleccionada cuidadosamente para garantizar la máxima calidad y frescura.</p>
+                    <div class="section__card-buttons">
+                        <a class="button button-primary" href="#">Comprar ahora</a>
+                        <a class="button button-secondary" href="#">Contáctanos</a>
+                    </div>
+                </div>
+                <div class="section__card-imgs">
+                    <div class="section__card-img">
+                        <img src="img/img-carousel-2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="section__card">
+                <div class="section__card-content">
+                    <h1 class="section__card-title">Deliciosa explosión de sabores</h1>
+                    <p class="section__card-text">¡Explora nuestras secciones déjate llevar por el mundo de los sabores
+                        naturales! Estamos aquí para satisfacer tus necesidades frutales y hacer que cada visita sea una
+                        experiencia única.</p>
+                    <div class="section__card-buttons">
+                        <a class="button button-primary" href="#">Comprar ahora</a>
+                        <a class="button button-secondary" href="#">Contáctanos</a>
+                    </div>
+                </div>
+                <div class="section__card-imgs">
+                    <div class="section__card-img">
+                        <img src="img/img-carousel-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-control">
+                <a class="carousel__control prev" href="#"><i class="bi bi-arrow-left"></i></a>
+                <a class="carousel__control next" href="#"><i class="bi bi-arrow-right"></i></a>
+            </div>
+        </article>
+    </section>
+
+
+    <section class="services-section">
+        <article class="services__cards container">
+            <div class="services__cards-info">
+                <h2>Nuestros servicios</h2>
+                <p>En PureFruit, nos esforzamos por brindarte servicios excepcionales que complementen la frescura y
+                    calidad de nuestras frutas. Explora lo que ofrecemos para hacer tu experiencia de compra aún más
+                    satisfactoria</p>
+            </div>
+            <div class="services__cards-card">
+                <div class="service__card">
+                    <i class="bi bi-brightness-alt-high-fill"></i>
+                    <h3>Variedad Fresca</h3>
+                    <p>Descubre una amplia variedad de frutas frescas, desde las clásicas manzanas hasta las exóticas
+                        piñas. Seleccionamos cuidadosamente cada fruta para garantizar su frescura y calidad.</p>
+                </div>
+                <div class="service__card">
+                    <i class="bi bi-bicycle"></i>
+                    <h3>Entrega a Domicilio</h3>
+                    <p>¿Quieres disfrutar de la frescura de nuestras frutas sin salir de casa? Aprovecha nuestro
+                        servicio de entrega a domicilio y recibe productos de alta calidad directamente en tu puerta.
+                    </p>
+                </div>
+                <div class="service__card">
+                    <i class="bi bi-rainbow"></i>
+                    <h3>Eventos Especiales</h3>
+                    <p>Hacemos que tus eventos sean más sabrosos con nuestra selección de frutas frescas y deliciosos
+                        arreglos. Ofrecemos opciones personalizadas para todos los gustos.</p>
+                </div>
+            </div>
+            <a href="#" class="button button-primary">Saber más</a>
+        </article>
+    </section>
+
+
+    <div class="sticky-social-container">
+        <ul class="sticky-social">
+            <a href="https://www.whatsapp.com/" target="_blank">
+                <p>Whatsapp</p>
+                <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="https://telegram.org/" target="_blank">
+                <p>Telegram</p>
+                <i class="bi bi-telegram"></i>
+            </a>
+            <a href="#" target="_blank">
+                <p>Chat</p>
+                <i class="bi bi-chat-heart-fill"></i>
+            </a>
+        </ul>
+    </div>
+
+
+    <footer class="footer">
+        <section class="footer__sections">
+            <di v class="footer__sections-container container">
+
+                <article class="footer__section">
+                    <h3 class="footer__section-title">Frutas</h3>
+                    <ul class="footer__section-table">
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Manzanas</a>
+                        </li>
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Plátanos</a>
+                        </li>
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Uvas</a>
+                        </li>
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Fresas</a>
+                        </li>
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Piñas</a>
+                        </li>
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Mangos</a>
+                        </li>
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Cerezas</a>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="footer__section">
+                    <h3 class="footer__section-title">Categorías</h3>
+                    <ul class="footer__section-table">
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Frutas tropicales</a>
+                        </li>
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Frutas cítricas</a>
+                        </li>
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Frutas del bosque</a>
+                        </li>
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Frutas exóticas</a>
+                        </li>
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Frutas de temporada</a>
+                        </li>
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Smoothies y batidos</a>
+                        </li>
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Recetas con frutas</a>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="footer__section">
+                    <h3 class="footer__section-title">Servicios</h3>
+                    <ul class="footer__section-table">
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Entrega a domicilio</a>
+                        </li>
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Suscripción mensual</a>
+                        </li>
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Asesoramiento nutricional</a>
+                        </li>
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Eventos especiales</a>
+                        </li>
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Envíos internacionales</a>
+                        </li>
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Personalización de pedidos</a>
+                        </li>
+                        <li class="footer__section-links">
+                            <a class="footer__section-link" href="#">Garantía de calidad</a>
+                        </li>
+                    </ul>
+                </article>
+
+                <article class="footer__section">
+                    <h3 class="footer__section-title">Siguenos</h3>
+                    <div class="social__container">
+                        <a href="#" class="social__icon">
+                            <img src="img/facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="#" class="social__icon">
+                            <img src="img/instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="#" class="social__icon">
+                            <img src="img/twitter-x.svg" alt="Twitter-X">
+                        </a>
+                        <a href="#" class="social__icon">
+                            <img src="img/linkedin.svg" alt="LinkedIn">
+                        </a>
+                    </div>
+                    <div class="suscribe__container">
+                        <h3 class="footer__section-title">Suscríbete ahora</h3>
+                        <form class="suscribe__container-form" action="">
+                            <input type="email" class="suscribe__container-input input"
+                                placeholder="Ingresa tu correo electrónico">
+                            <a type="submit" class="suscribe__container-button button button-primary">
+                                Suscribirme
+                            </a>
+                        </form>
+                    </div>
+                </article>
+
+            </di>
+        </section>
+        <section class="footer__copy">
+            <p class="footer__copy-text" id="copyright">
+                Copyright &copy;
+                <span id="current-year"></span> Todos los derechos reservados. By
+                <a class="footer__copy-link" target="_blank"
+                    href="https://www.youtube.com/@juandavid_dev">JuanDavid_Dev</a>
+            </p>
+        </section>
+    </footer>
+
+    <!-- my js -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>

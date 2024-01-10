@@ -1,0 +1,84 @@
+@import url(styles.css);
+
+.services-section {
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.services__cards {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.services__cards-info {
+  max-width: 900px;
+}
+
+.services__cards-info h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--dark-purple);
+  margin-bottom: 1rem;
+}
+
+.services__cards-info p {
+  font-size: 1.1rem;
+  color: var(--dark);
+  margin-bottom: 1rem;
+}
+
+.services__cards-card {
+  display: flex;
+  justify-content: center;
+}
+
+.service__card {
+  max-width: 25%;
+  border: 1px solid var(--green);
+  margin: 3rem 1rem;
+  padding: 2rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.service__card:hover {
+  background-color: var(--light-pink);
+}
+
+.service__card i {
+  font-size: 56px;
+  color: var(--medium-purple);
+}
+
+.service__card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark-purple);
+}
+
+.service__card p {
+  font-size: 1.1rem;
+  color: var(--dark);
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 850px) {
+  .services__cards-card {
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+  }
+
+  .service__card {
+    max-width: 100%;
+    margin: 1rem 1rem;
+  }
+
+  .services__cards .button {
+    margin-top: 2rem;
+  }
+}
