@@ -75,6 +75,15 @@
   object-fit: cover;
 }
 
+.carousel-controls-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .carousel-control {
   position: fixed;
   right: 10px;
